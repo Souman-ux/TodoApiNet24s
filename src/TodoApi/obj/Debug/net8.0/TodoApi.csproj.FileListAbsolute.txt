@@ -275,3 +275,4 @@
 /Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/obj/Debug/net8.0/TodoApi.sourcelink.json
