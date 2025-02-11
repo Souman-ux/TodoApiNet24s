@@ -78,6 +78,7 @@ namespace TodoApi.Controllers
         public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem)
         {
             _context.TodoItems.Add(todoItem);
+            Console.WriteLine(todoItem.Name);
             await _context.SaveChangesAsync();
 
             //    return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
