@@ -1,0 +1,8 @@
+GET https://localhost:7181/api/todoitems
+
+POST https://localhost:7181/api/todoitems
+Content-Type: application/json
+
+{
+    "name": "muista hedelmiä"
+}
