@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
 using Microsoft.AspNetCore.Authentication;
