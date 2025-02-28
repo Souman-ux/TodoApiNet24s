@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.ComponentModel.DataAnnotations; // Add this for validation
 
 namespace TodoApi.Controllers
 {
@@ -40,6 +41,7 @@ namespace TodoApi.Controllers
                 return Unauthorized("Invalid username or password.");
             }
         }
+
         [HttpPost("register")]
         public IActionResult Register([FromBody] RegisterModel model)
         {
@@ -47,8 +49,6 @@ namespace TodoApi.Controllers
             {
                 return Conflict("Пользователь с таким логином уже существует");
             }
-
-
 
             return Ok("Пользователь зарегистрирован");
         }
@@ -60,16 +60,23 @@ namespace TodoApi.Controllers
         }
     }
 
-    // Request model for login
-
+    // Request model for registration with validation
     public class RegisterModel
     {
+        [Required] // Ensure Username is required
         public string Username { get; set; }
+
+        [Required] // Ensure Password is required
         public string Password { get; set; }
     }
+
+    // Request model for login with validation
     public class LoginRequest
     {
+        [Required] // Ensure Username is required
         public string Username { get; set; }
+
+        [Required] // Ensure Password is required
         public string Password { get; set; }
     }
 }
