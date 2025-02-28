@@ -276,3 +276,9 @@
 /Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/obj/Debug/net8.0/TodoApi.sourcelink.json
+/Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/TodoApi.staticwebassets.endpoints.json
+/Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
+/Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
+/Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/bin/Debug/net8.0/Microsoft.Extensions.ObjectPool.dll
+/Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/s2401550/Documents/github/TodoApiNet24s/src/TodoApi/obj/Debug/net8.0/staticwebassets/msbuild.TodoApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
